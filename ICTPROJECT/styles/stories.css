@@ -1,0 +1,129 @@
+#boddy{
+    background-image: url(../images/emptyblackpeppegashy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#boxx {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+    background-color: rgba(97, 93, 93, 0.5);
+    box-shadow: inset -5px -5px rgba(250, 238, 238, 0.5);
+    border-radius: 26px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 38px;
+    padding-top: 15px;
+}
+#boddy h1{
+    font-family: 'Syne Mono', monospace;
+    color: #fbf9f9;
+    border: solid;
+    border-color: #000000;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    cursor: pointer;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Syne Mono', monospace;
+}
+
+.nav-links:hover {
+    color: var(--brightred);
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+    background-color: var(--brightred);
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.nav-links-btn:hover {
+    background-color: transparent;
+    color: var(--white);
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: solid 1px var(--brightred);
+    transition: all 0.3s ease-out;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3 ease-in-out;
+    background: var(--white);
+}
+
+.Back{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.Back {
+    font-size: 25px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, #dbd0cf 100%);
+    border: none;
+    border-radius: 50px;
+    color: rgb(231, 218, 218);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    font-family: 'Syne Mono', monospace;
+    float: right;
+}
+
+.Back a {
+    position: relative;
+    z-index: 2;
+    background-image: linear-gradient(to top, #f1ebeb 0%, black 0%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.Back:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(122, 120, 120);
+    transition: all 0.35s;
+    border-radius: 50px;
+}
+
+.Back:hover {
+    color: #fff;
+}
+
+.Back:hover:after {
+    width: 100%;
+}
